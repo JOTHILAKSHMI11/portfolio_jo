@@ -1,0 +1,30 @@
+body{
+    background-color: black;
+}
+h1{
+    border-left: 10px;
+    color: gold;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    letter-spacing: 4px;
+    
+
+}
+img{
+    border: 5px solid white ;
+    border-radius: 12px;
+    width: 95%;
+}
+div{
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+    font-family: "Libre Baskerville", serif;
+
+    
+}
+p{
+    color:bisque;
+    font-size: 1.5rem;
+    line-height: 1.6;
+}
