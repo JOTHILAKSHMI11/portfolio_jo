@@ -12,15 +12,13 @@
     <h2>About Me</h2>
     <p>Aspiring Web Developer passionate about learning and building websites.  </p>
     <h2>Education </h2>
-  <table border="1" cellpadding="10">
-        <thead>
+  <table id="table" contenteditable="true" >
             <tr>
                 <th>Qualification</th>
                 <th>Institution</th>
                 <th>Year</th>
                 <th>CGPA/Percentage</th>
             </tr>
-        </thead>
         <tbody>
             <tr>
              <td>B.E Electronics and Communication Engineering</td>
@@ -42,6 +40,7 @@
             </tr>
         </tbody>
     </table>
+    <button id="button">Download pdf</button>
     <h2>Projects</h2>
     
         <h3> Movie Ranking Project </h3>
@@ -75,6 +74,10 @@
     </ul>
 
     <a href="./public/contact.html" id="contact" >Contact Me </a>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.31/jspdf.plugin.autotable.min.js"></script>
+
+     <script src="./script.js"></script>
 
 
 
