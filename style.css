@@ -69,17 +69,17 @@ td:hover{
 
 @media (max-width: 768px){
     h1{
-        font-size: 2rem;
+        font-size: 1.8rem;
         text-align: center;
 
     }
 
     h2{
-        font-size: 1.8rem;
+        font-size: 1.4rem;
     }
 
     h3{
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
 
     p{
