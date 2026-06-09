@@ -3,13 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>portfolio</title>
+    <title>Resume</title>
     <link rel="stylesheet" href="./style.css"/>
     
 </head>
 <body>
-    <header>
-    <h1>Jothi Lakshmi's Portfolio</h1></header>
+
+    <div  id="content">
+    <h1>Jothi Lakshmi</h1>
+    <button id="button"  onclick="downloadPDF()" >Download PDF</button>
     <h2>About Me</h2>
     <p>Aspiring Web Developer passionate about learning and building websites.  </p>
     <h2>Education </h2>
@@ -23,7 +25,7 @@
         <tbody>
             <tr>
              <td>B.E Electronics and Communication Engineering</td>
-             <td>Anna university regional campus,Tirunelveli</td>
+             <td>Anna university regional campus,Trunelveli</td>
              <td>2022-2026</td>
              <td>7.87/10</td>
             </tr>
@@ -41,43 +43,47 @@
             </tr>
         </tbody>
     </table>
-    <button id="button">Download pdf</button>
+   
+   
     <h2>Projects</h2>
-    
+    <div id="project">
+        <div id="projects">
         <h3> Movie Ranking Project </h3>
         <p>A webpage displaying my favorite movies.</br>
        Technology:HTML</p>
         <a href = "./public/movie-ranking.html" >  <img src = "./assets/images/movie-ranking.png" width="250" height="150"  alt="Movie Ranking website Image" /></a>
-   
-    <hr/>
-    
+        </div>
+    <div id="projects">
          <h3> Birthday Invite Project </h3>
          <p>A birthday invitation webpage with  event details.</br>
         Technology:HTML</p>
          <a href = "./public/birthday-invite.html" ><img src = "./assets/images/birthday-invite.png"  width="250" height="150"  alt="BIrthday Invite website Image" /></a>
-
-    <hr/>
+</div>
+    <div id="projects">
         <h3>Motivational Poster</h3>
         <p>Designed a Motivational poster. </br>
-        Technologies:HTML and CSS</p>
+        Technologies:HTML and CSS</p>  </br></br>
         <a href="./public/motivationPoster/index.html"><img src = "./assets/images/poster.png"  width="250" height="150"  alt="Motivational poster" /></a>
-    
-    <hr/>
+    </div>
+    </div>
+</hr>
     
     <h2>Skills</h2>
     <ul>
         <li>HTML</li>
-        <LI>CSS</LI>
+        <lI>CSS</lI>
+        <li>Javascript</li>li>
         <li>Basic Web Development</li>
         <li>VS Code</li>
         <li>Problem Solving</li>
         <li>Communication</li>
     </ul>
 
+    </div>
     <a href="./public/contact.html" id="contact" >Contact Me </a>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.31/jspdf.plugin.autotable.min.js"></script>
 
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
      <script src="./script.js"></script>
 
 
